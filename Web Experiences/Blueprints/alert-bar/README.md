@@ -20,6 +20,7 @@ Copy the HTML/JS/CSS as needed from here to a new [Web Experience](https://docum
 You can add alertBarScroll.js to show after a certain scroll percentage.
 
 ### HTML
+The following is an example of the HTML you can use to create an alert bar:
 ```html
 <!-- Use dynamic Guest variables, type ctrl+space or guest to explore available entities.-->
 <!-- Type "d" to see decisioning helpers -->
@@ -35,6 +36,7 @@ You can add alertBarScroll.js to show after a certain scroll percentage.
 ```
 
 ### CSS
+The following is an example of the CSS you can use to create an alert bar:
 ```css
 /* accomodate every size screen by default */
 /* tested on chrome, crome mobile, safari, firefox, edge */
@@ -233,6 +235,7 @@ body.show-TopBanner {
 ```
 
 ### Javascript
+The following is an example of the Javascript you can use to create an alert bar:
 ```js
 // Adds a unique variant identifier to CSS when deployed to ensure CSS does not impact styling of other elements.
 var compiledCSS = Boxever.templating.compile(variant.assets.css)(variant);
